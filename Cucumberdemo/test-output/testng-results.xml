@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8267" started-at="2020-02-26T06:03:19Z" finished-at="2020-02-26T06:03:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8267" started-at="2020-02-26T06:03:19Z" finished-at="2020-02-26T06:03:28Z">
+      <class name="featurework">
+        <test-method status="PASS" signature="featurework()[pri:0, instance:featurework@16c0663d]" name="featurework" duration-ms="8184" started-at="2020-02-26T11:33:20Z" finished-at="2020-02-26T11:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featurework -->
+      </class> <!-- featurework -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
