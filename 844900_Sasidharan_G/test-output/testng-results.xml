@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19510" started-at="2020-03-12T06:30:52Z" finished-at="2020-03-12T06:31:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19510" started-at="2020-03-12T06:30:52Z" finished-at="2020-03-12T06:31:12Z">
+      <class name="com.Testcase.Selenium_IE_driver_test">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.Testcase.Selenium_IE_driver_test@6b71769e]" name="startup" is-config="true" duration-ms="7984" started-at="2020-03-12T12:00:52Z" finished-at="2020-03-12T12:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="Assert_print()[pri:0, instance:com.Testcase.Selenium_IE_driver_test@6b71769e]" name="Assert_print" duration-ms="9" started-at="2020-03-12T12:01:00Z" finished-at="2020-03-12T12:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assert_print -->
+        <test-method status="PASS" signature="click_func()[pri:0, instance:com.Testcase.Selenium_IE_driver_test@6b71769e]" name="click_func" duration-ms="9017" started-at="2020-03-12T12:01:00Z" finished-at="2020-03-12T12:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_func -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.Testcase.Selenium_IE_driver_test@6b71769e]" name="close_browser" is-config="true" duration-ms="2489" started-at="2020-03-12T12:01:09Z" finished-at="2020-03-12T12:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.Testcase.Selenium_IE_driver_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
