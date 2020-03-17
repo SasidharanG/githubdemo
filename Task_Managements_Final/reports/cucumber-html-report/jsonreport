@@ -1,0 +1,438 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "Login into Task_Mangement Website",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10251308089,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user launch the chrome application",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.the_user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1626815935,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicking on Administration to nagivate Login Page",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.clicking_on_Administration_to_nagivate_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26503394119,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user login using username and password",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.the_user_login_using_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1088809131,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on login Button",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_on_login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC_01_Login"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "",
+        "description": "Add Task in Task_Mangement Website",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14460225423,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click AddTask and login",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_AddTask_and_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7591386813,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Clicking on AddTask to nagivate Add Task Page",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.clicking_on_AddTask_to_nagivate_Add_Task_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6118454240,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Addbutton to add Task",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_on_Addbutton_to_add_Task()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@TC_02_Add_Task"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "Searching in Task_Mangement Website",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6007323492,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter Correct Details to search",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.enter_Correct_Details_to_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6561191723,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click Search Button to Get Details",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_Search_Button_to_Get_Details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@TC_03_Search_Task"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "",
+        "description": "Printing Task Table in Task_Mangement Website",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12338857920,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Print the home page Task Table in the console",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.print_the_home_page_Task_Table_in_the_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@TC_04_Task_Table_Printing"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "",
+        "description": "Add/Edit Task in TaskMangement Website",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8757828367,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click any task from the Tasks list",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_any_task_from_the_Tasks_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223816042,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Edit any one field from Add/Edit task",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.edit_any_one_field_from_Add_Edit_task()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9102096056,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click on submit Button",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_on_submit_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@TC_05_Edit"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "",
+        "description": "Deleting a Task in TaskMangement Website",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8986001748,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click any task from tasks list",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_any_task_from_tasks_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4150094749,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click delete button to delete details",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_delete_button_to_delete_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 37,
+            "name": "@TC_06_Delete"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "",
+        "description": "Checking Deleted details is show are not in TaskMangement Website",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6073686814,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Fill the deleted details in Search box",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.fill_the_deleted_details_in_Search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 957688243,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Click the search button",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_the_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3203281612,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Print the search result",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.print_the_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@TC_07_Searching_Delete_Task"
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "",
+        "description": "Searching Project in TaskMangement Website",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6492592656,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Search as Codecharge in Project",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_dropdown_box_in_project_from_search_and_select_codecharge()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6302988612,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "click on the search button get the result",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_on_the_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 50,
+            "name": "@TC_08_TaskList_Search"
+          }
+        ]
+      },
+      {
+        "line": 57,
+        "name": "",
+        "description": "  Printing anyone user from employee Deatils in TaskMangement Website",
+        "id": "task-management-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8768838709,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Clicking Adminstration",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.clicking_Adminstration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 543136394,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Click on employee details",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.click_on_employee_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5459797956,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Print the anyone Employees list in the console",
+            "match": {
+              "location": "Task_Mangement_StepDefinition.print_the_anyone_Employees_list_in_the_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 56,
+            "name": "@Tc_09_Employees_list_printing"
+          }
+        ]
+      }
+    ],
+    "name": "Task_Management Website",
+    "description": "",
+    "id": "task-management-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/feature/TestCase.Feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Task_Management"
+      }
+    ]
+  }
+]
